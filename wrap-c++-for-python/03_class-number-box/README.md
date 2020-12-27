@@ -5,7 +5,9 @@ In this example instead of using Makefile, I have used python setuptools.
 First of all , when you have multiple classes and you want them in a single library file, you should generate interface file (".i") for all of them, then include them in the main interface file.
 In this example there are two classes: `Box`, and `Number`.
 Each of them has a header file, a source file and an interface file.
+
 `box.cpp  box.h  box.i`
+
 `number.cpp  number.h  number.i`
 
 The content of each header file is like:
