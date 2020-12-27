@@ -1,8 +1,9 @@
-#ifndef __BOX_H__
-#define __BOX_H__
+#ifndef BOX_H
+#define BOX_H
 
 class Box {
    public:
+      Box (int len, int bre, int hei);
       double length;         // Length of a box
       double breadth;        // Breadth of a box
       double height;         // Height of a box
@@ -15,3 +16,4 @@ class Box {
 };
 
 #endif
+

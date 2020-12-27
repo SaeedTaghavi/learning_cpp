@@ -8,6 +8,7 @@ public:
     void add(int value);
     void sub(int value);
     void display(  );
+    void cube();
     int data;
 };
 

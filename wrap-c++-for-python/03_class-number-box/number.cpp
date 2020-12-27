@@ -1,4 +1,4 @@
-#include "../include/number.h"
+#include "number.h"
 #include <iostream>
 
 using namespace std;
@@ -25,4 +25,10 @@ void Number::sub(int value) {
 
 void Number::display(  ) { 
    cout << "Number = " << data << endl; 
+}
+
+void Number::cube()
+{
+	data = data*data*data;
+	cout <<"cube"<<endl;
 }
